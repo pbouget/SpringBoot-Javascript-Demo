@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spring & JavaScript Démo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="css/main.css" />
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+</head>
+<body>
+	<header id="header">
+		<a href="index.html" class="logo">
+			<img src="image/logo-phil.png" alt="Logo Philippe" />
+			<span>Spring Boot c'est sympa...</span>
+		</a>
+	</header>
+
+	<!-- ICI - ultérieurement ajout d'un formulaire avec CRUD -->
+	<section>
+		<article class="col-sm-6 col-xs-12" id="piloteList">
+			<table id="tablePilotes" class="display">
+				<thead>
+					<tr>
+						<th>Identifiant</th>
+						<th>Nom</th>
+						<th>Site</th>
+					</tr>
+				</thead>
+			</table>
+		</article>
+	</section>
+	<footer>
+		<p>
+		© <a href="https://pbouget.github.io/cours/framework-back/jwt/jwt-back.html">PBouget - cours et TP</a> 2022
+		</p>
+	</footer>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	<script
+		src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="/js/pilotes.js"></script>
+</body>
+</html>
