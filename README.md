@@ -1,5 +1,7 @@
 # Spring Boot & Javascript Démo
 
+![démo](images/datatable-demo.png)
+
 >Mini projet pour faire le lien entre un Back Spring Boot (sans accès à une base de données) et une page HTML avec du JS 
 pour avec une DataTable pour afficher nos données instanciées dans notre contrôleur.
 
