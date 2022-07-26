@@ -1,6 +1,6 @@
 #header .logo {
 	display: block;
-	border-bottom: 0;
+	border-bottom: 10;
 	color: inherit;
 	font-weight: 900;
 	letter-spacing: 0.35em;
@@ -16,7 +16,13 @@
 }
 
 #header .logo img {
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+}
+
+footer {
 	display: block;
-	width: 3em;
-	height: 2em;
+	text-align: left;
+	margin-left: 10px;
 }
